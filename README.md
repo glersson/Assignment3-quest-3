@@ -1,10 +1,1 @@
-void main() { 
-var sum = 0;
-print ("Input five numbers and we will find the avarage of the sum"); 
-for (int i = 0; i < 5; i++) { 
-var num = stdin.readLineSync();
-int num1 = int.tryParse(num); 
-print ("-----------"); 
-sum+=num1; } 
-print ("Total is : ${sum}"); 
-print ("The avarage of that number is :${sum/5}"); }
+Write a program to read 5 numbers from keyboard,using loop. The program should work with any 5 numbers. Program ends by printing out the sum and average of the numbers
